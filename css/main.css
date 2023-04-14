@@ -50,6 +50,8 @@ nav {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  position: fixed;
+  top: 0;
   height: 5vh;
   width: 100vw;
   z-index: 10;
@@ -60,7 +62,7 @@ nav a:visited {
 }
 
 header {
-  height: 35vh;
+  height: 55vh;
   width: 100vw;
   background-color: red;
 }
@@ -69,14 +71,112 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 55vh;
+  height: 100vh;
   width: 100vw;
   background-color: lime;
 }
-main .keywords {
+main .mainpage {
   height: 100%;
   width: 75%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1%;
+}
+main .mainpage .paragraphs {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+main .mainpage .paragraphs .text {
+  height: 30%;
+  width: 80%;
+  background-color: gray;
+  margin: 5px;
+}
+main .mainpage .photos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 35%;
+  background-color: gray;
+}
+main .mainpage .photos .photo {
+  height: 30%;
+  width: 80%;
+  background-color: #fff;
+  margin: 5px;
+}
+main .availability {
+  height: 100%;
+  width: 75%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1%;
+}
+main .availability .categories {
+  height: 100%;
+  width: 15%;
   background-color: gold;
+}
+main .availability .products {
+  height: 100%;
+  width: 70%;
+  background-color: gray;
+}
+main .promo {
+  height: 100%;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+main .promo .promo-video {
+  height: 60%;
+  width: 100%;
+  background-color: gray;
+}
+main .promo .promo-text {
+  height: 40%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 3%;
+  background-color: #fff;
+}
+main .news {
+  height: 100%;
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+main .news .news-header {
+  height: 30%;
+  width: 100%;
+  background-color: tomato;
+}
+main .news .enterprise {
+  height: 60%;
+  width: 45%;
+  background-color: #fff;
+  margin: 1.5%;
+}
+main .news .stocks {
+  height: 60%;
+  width: 45%;
+  background-color: gray;
 }
 
 footer {
