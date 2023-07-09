@@ -1,2 +1,1 @@
-# c-ment
-Projekt na PSI 14.04
+# Basic HTML CSS project for school
